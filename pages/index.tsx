@@ -9,7 +9,6 @@ import React from "react";
  * @return {JSX.Element} The JSX Code for the Home Page
  */
 
-
 export default function Index() {
   return (
     <div className={styles.container}>

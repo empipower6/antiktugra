@@ -4,6 +4,7 @@ module.exports = {
   images: {
     domains: ["cdn.shopify.com"],
   },
+  target: 'serverless',
 
   async rewrites() {
     const rewrite_url = [
