@@ -2,14 +2,7 @@
 . "$(dirname "$0")/_/husky.sh"
 
 echo '🏗️👷 Checking if everything is good before committing'
-npm run format
-# Check Prettier standards
-npm run check-format ||
-(
-    echo '🤢🤮🤢🤮 Stylinginde bir sorun varrr. 🤢🤮🤢🤮
-            Prettier Check Failed. Run npm run format, add changes and try commit again.';
-    false;
-)
+
 
 # Check ESLint Standards
 npm run check-lint ||
