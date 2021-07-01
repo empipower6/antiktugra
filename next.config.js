@@ -7,11 +7,11 @@ module.exports = {
 
   async rewrites() {
     const rewrite_url = [
-        {
-            source: '/index.html',
-            destination: '/'
-        },
-    ]
+      {
+        source: "/index.html",
+        destination: "/",
+      },
+    ];
     return rewrite_url;
-}
+  },
 };
