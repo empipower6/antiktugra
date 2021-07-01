@@ -1,0 +1,87 @@
+.header{
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content: space-between;
+    align-items:center;
+    padding:0 20px;
+    max-height:70px;
+    .burger{
+        display:flex;
+        align-items: center;
+        width:30%;
+    }
+    
+    .logo{
+        display:flex;
+        align-items: center;
+        width:23%;
+        cursor:pointer;
+
+    }
+    .socials{
+        display:flex;
+        width:30%;
+        display:flex;
+        flex-flow:row nowrap;
+        justify-content: flex-end;
+        .insta,.face{
+            cursor:pointer;
+        }
+        .insta{
+            padding-right:15px;
+        }
+    }
+}
+@media only screen and (max-width: 600px) {
+
+    .header{
+        max-height:50px;
+
+        .burger{
+            width:20%;
+    
+        }
+        
+        .logo{
+            margin-top:-5px;
+            width:60%;
+    
+        }
+        .socials{
+            margin-top:5px;
+            width:20%;
+            
+    
+            .insta{
+                padding-right:5px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width:600px){
+
+    .header{
+        max-height:80px;
+
+        .burger{
+            width:20%;
+    
+        }
+        
+        .logo{
+            margin-top:-5px;
+            width:80%;
+    
+        }
+        .socials{
+            margin-top:5px;
+            width:20%;
+            
+    
+            .insta{
+                padding-right:20px;
+            }
+        }
+    }
+}
