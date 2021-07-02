@@ -1,7 +1,7 @@
 /* eslint-disable require-jsdoc */
 import styles from "../../styles/common/Header.module.scss";
 import React from "react";
-import Hamburger from "./hamburger";
+// import Hamburger from "./hamburger";
 import LogoText from '../svgs/logoText'
 import InstagramIcon from '../svgs/instagramSVG'
 import FacebookIcon from '../svgs/facebookSVG'
@@ -16,11 +16,11 @@ export default function Header() {
     <>
     <LogoText />
     <div className={styles.header}>
-      <div className={styles.burger}>
+      {/* <div className={styles.burger}>
 
         <Hamburger />
 
-      </div>
+      </div> */}
       <div className={styles.logo}>
           <LogoText />
       </div>
