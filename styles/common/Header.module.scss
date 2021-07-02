@@ -35,7 +35,7 @@
 @media only screen and (max-width: 600px) {
 
     .header{
-        max-height:50px;
+        max-height:150px;
 
         .burger{
             width:20%;
@@ -44,7 +44,9 @@
         
         .logo{
             margin-top:-5px;
-            // width:250px;
+            width:250px;
+            height:100px;
+            border:0.1vw solid black;
     
         }
         .socials{
