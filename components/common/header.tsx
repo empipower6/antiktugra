@@ -5,7 +5,6 @@ import Hamburger from "./hamburger";
 import LogoText from '../svgs/logoText'
 import InstagramIcon from '../svgs/instagramSVG'
 import FacebookIcon from '../svgs/facebookSVG'
-import Link from 'next/link';
 /**
  * Header: The Main Header component
  * @return {JSX.Element} The JSX Code for the Header Component
@@ -23,9 +22,7 @@ export default function Header() {
 
       </div>
       <div className={styles.logo}>
-        <Link href="/">
           <LogoText />
-        </Link>
       </div>
       <div className={styles.socials}>
         <div className={styles.insta}>
