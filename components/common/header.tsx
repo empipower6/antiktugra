@@ -14,6 +14,8 @@ import Link from 'next/link';
 
 export default function Header() {
   return (
+    <>
+    <LogoText />
     <div className={styles.header}>
       <div className={styles.burger}>
 
@@ -38,6 +40,7 @@ export default function Header() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 
