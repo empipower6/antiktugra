@@ -3,22 +3,26 @@
     height:40px;
     border:0.1vw solid black;
 }
+.introText{
+    border:0.1vw solid black;
+}
 
-// @media only screen and (max-width: 600px) {
-// .burger{
-//     width:30px;
-//     height:30px;
-// }
-// }
-// @media only screen and (max-width: 1024px) and (min-width:600px){
-//     .burger{
-//         width:60px;
-//         height:60px;
-//     }
+@media only screen and (max-width: 600px) {
+.burger{
+    width:30px;
+    height:30px;
+}
 
-//     .face,.insta{
-//         height:50px;
-//         width:50px;
-//     }
+}
+@media only screen and (max-width: 1024px) and (min-width:600px){
+    .burger{
+        width:60px;
+        height:60px;
+    }
 
-// }
+    .face,.insta{
+        height:50px;
+        width:50px;
+    }
+
+}

@@ -39,8 +39,9 @@
 }
 
 .newOne{
-    display:flex;
-    flex-flow:row wrap;
+    display:grid;
+    grid-template-columns: 50% 25% 25%;
+    border:0.1vw solid black;
     
 }
 @media only screen and (max-width: 600px) {
@@ -91,7 +92,7 @@
             
     
             .insta{
-                // padding-right:20px;
+                padding-right:20px;
             }
         }
     }
