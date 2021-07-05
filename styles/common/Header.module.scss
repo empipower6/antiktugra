@@ -4,7 +4,6 @@
     padding:0 20px;
     border:0.1vw solid black;
     align-items: center;
-    // max-height:70px;
     .burger{
         display:flex;
         align-items: center;
@@ -37,21 +36,18 @@
 @media only screen and (max-width: 600px) {
 
     .header{
-        max-height:50px;
+        grid-template-columns: 20% 60% 20%;
 
         .burger{
-            width:20%;
     
         }
         
         .logo{
             margin-top:-5px;
-            width:60%;
     
         }
         .socials{
             margin-top:5px;
-            width:20%;
             
     
             .insta{
@@ -67,18 +63,15 @@
         // max-height:80px;
 
         .burger{
-            width:10%;
     
         }
         
         .logo{
             margin-top:-5px;
-            width:80%;
     
         }
         .socials{
             margin-top:5px;
-            width:10%;
             
     
             .insta{
