@@ -9,14 +9,16 @@
         display:flex;
         align-items: center;
         width:30%;
+        border:0.1vw solid black;
     }
     
     .logo{
         display:flex;
         align-items: center;
-        width:50%;
+        width:40%;
         height:auto;
         cursor:pointer;
+        border:0.1vw solid black;
 
     }
     .socials{
@@ -25,6 +27,8 @@
         display:flex;
         flex-flow:row nowrap;
         justify-content: flex-end;
+        border:0.1vw solid black;
+
         .insta,.face{
             cursor:pointer;
         }
@@ -36,8 +40,7 @@
 
 .newOne{
     display:flex;
-    flex-flow:row nowrap;
-    justify-content: center;
+    flex-flow:row wrap;
     
 }
 // @media only screen and (max-width: 600px) {

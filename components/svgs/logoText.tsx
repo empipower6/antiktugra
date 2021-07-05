@@ -1,8 +1,9 @@
 import React from 'react';
+import styles from "../../styles/common/Svg.module.scss"
 
 export default function LogoTextSVG (): JSX.Element{
     return(
-        <svg fill="#3a3a3a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1159.65 841.89">  
+        <svg className={styles.logoText} fill="#3a3a3a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1159.65 841.89">  
             <path className="cls-1" d="M255,480.05c-2.9-8.2-7.31-19.68-11.35-29.77h-33.8l-12.36,29.77h-3.66l35.57-86.15h1.13s1.77,5.55,3.16,9c11,27.37,27,65.21,32.16,77.19ZM242.1,446.62c-6.69-16.65-15.26-37.84-15.26-37.84v-1.51L211.2,446.62Z"/>
             <path className="cls-1" d="M339.47,465.16c0-7.44,0-56.88-.25-70h4c0,24.22-.51,62.18.12,86.4-9.08-10-63.06-75.17-63.06-75.17l.88,2.77v70.89h-4c0-6.81.12-60.17,0-78.45l-.76-6.44h5.42C287,402.23,338.59,463,338.59,463Z"/>
             <path className="cls-1" d="M382.36,480.05V398.57H352.72l.88-3.41h69.5v3.41H392c0,24.34-.13,57.26-.13,81.48Z"/>
