@@ -14,7 +14,12 @@ import FacebookIcon from '../svgs/facebookSVG'
 export default function Header() {
   return (
     <>
+    <div className={styles.newOne}>
     <LogoText />
+    <InstagramIcon />
+    <FacebookIcon />
+
+    </div>
     <div className={styles.header}>
       {/* <div className={styles.burger}>
 
