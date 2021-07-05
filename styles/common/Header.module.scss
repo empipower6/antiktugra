@@ -1,21 +1,19 @@
 .header{
-    display:flex;
-    flex-flow:row nowrap;
-    justify-content: space-between;
-    align-items:center;
+    display:grid;
+    grid-template-columns: 40% 20% 40%;
     padding:0 20px;
+    border:0.1vw solid black;
+    align-items: center;
     // max-height:70px;
     .burger{
         display:flex;
         align-items: center;
-        width:30%;
         border:0.1vw solid black;
     }
     
     .logo{
         display:flex;
         align-items: center;
-        width:40%;
         height:100px;
         cursor:pointer;
         border:0.1vw solid black;
@@ -23,7 +21,6 @@
     }
     .socials{
         display:flex;
-        width:30%;
         display:flex;
         flex-flow:row nowrap;
         justify-content: flex-end;
@@ -33,16 +30,9 @@
             cursor:pointer;
         }
         .insta{
-            // padding-right:15px;
+            padding-right:15px;
         }
     }
-}
-
-.newOne{
-    display:grid;
-    grid-template-columns: 50% 25% 25%;
-    border:0.1vw solid black;
-    
 }
 @media only screen and (max-width: 600px) {
 
