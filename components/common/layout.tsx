@@ -7,12 +7,13 @@ import Header from './header';
  */
 type Props={
     children:React.ReactNode;
+    logo:any;
 }
 
-export default function Layout({children}:Props) {
+export default function Layout({children,logo}:Props) {
   return (
     <>
-    <Header />
+    <Header logoText={logo} />
     {children}
     </>
   );

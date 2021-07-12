@@ -1,29 +1,29 @@
 .header{
-    display:grid;
-    grid-template-columns: 40% 20% 40%;
+    display:flex;
+    flex-flow:row nowrap;
     padding:0 20px;
-    border:0.1vw solid black;
     align-items: center;
+    
     .burger{
         display:flex;
         align-items: center;
-        border:0.1vw solid black;
+        cursor:pointer;
+        width:42.5%;
+
     }
     
     .logo{
-        display:flex;
-        align-items: center;
-        height:100px;
+        width:15%;
+        
         cursor:pointer;
-        border:0.1vw solid black;
 
     }
     .socials{
-        display:flex;
+        width:42.5%;
+
         display:flex;
         flex-flow:row nowrap;
         justify-content: flex-end;
-        border:0.1vw solid black;
 
         .insta,.face{
             cursor:pointer;
@@ -36,22 +36,23 @@
 @media only screen and (max-width: 600px) {
 
     .header{
-        grid-template-columns: 20% 60% 20%;
+        
 
         .burger{
+            width:25%;
     
         }
         
         .logo{
-            margin-top:-5px;
+            width:50%;
     
         }
         .socials{
             margin-top:5px;
-            
+            width:25%;
     
             .insta{
-                // padding-right:5px;
+                padding-right:5px;
             }
         }
     }
@@ -63,15 +64,15 @@
         // max-height:80px;
 
         .burger{
-    
+            width:25%;
         }
         
         .logo{
-            margin-top:-5px;
+            width:50%;
     
         }
         .socials{
-            margin-top:5px;
+            width:25%;
             
     
             .insta{
