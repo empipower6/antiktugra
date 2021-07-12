@@ -6,7 +6,6 @@ import LogoText from '../svgs/logoText'
 import InstagramIcon from '../svgs/instagramSVG'
 import FacebookIcon from '../svgs/facebookSVG'
 import Menu from './menu';
-import Image from 'next/image'
 /**
  * Header: The Main Header component
  * @return {JSX.Element} The JSX Code for the Header Component
