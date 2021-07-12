@@ -25,6 +25,7 @@ export default function Index({ contentfulHome }: Props) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout logo={contentfulHome.fields.logoWithText}>
+        {/* <EntryImage imageURL={contentfulHome.fields.displayImage.fields.file.url} /> */}
       </Layout>
     </div>
   );

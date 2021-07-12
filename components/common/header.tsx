@@ -18,7 +18,6 @@ export default function Header({logoText}:Props) {
 
   const [toggleMenu,setToggle] = useState(false);
 
-  console.log(logoText.fields.file.url);
   return (
     <>
     <Menu toggle={toggleMenu} toggleFunc={setToggle} />
